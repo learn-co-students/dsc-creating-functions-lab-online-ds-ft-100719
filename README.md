@@ -12,7 +12,7 @@ You will be able to:
 ## Instructions: 
 ### Writing our first functions
 
-Imagine we are creating a list of travel destinations -- which can really turn out to be a full time job if we like to travel. We have our list of `travel_destinations` which we assign below. Write a function called `number_of_destinations` that returns the number of destinations we have on our list.
+Imagine we are creating a list of travel destinations -- which can really turn out to be a full time job if we like to travel. We have our list of `travel_destinations` which we assign below. Write a function called `number_of_destinations()` that returns the number of destinations we have on our list.
 
 
 ```python
@@ -36,7 +36,7 @@ number_of_destinations() # 6
 
 
 
-Now write another function called `next_up` that returns our first destination (the destination with the lowest index), in the `list_of_destinations` list.
+Now write another function called `next_up()` that returns our first destination (the destination with the lowest index), in the `list_of_destinations` list.
 
 
 ```python
@@ -60,7 +60,7 @@ next_up() # 'argentina'
 
 
 
-Ok, now write a function called `favorite_destination` that returns the string `'madagascar'`.
+Ok, now write a function called `favorite_destination()` that returns the string `'madagascar'`.
 
 
 ```python
@@ -83,7 +83,7 @@ favorite_destination() # 'madagascar'
 
 
 
-Again, let's declare a list called `favorite_destinations`. Write a new function called `add_favorite_destination` that also returns the string `'madagascar'`, but adds the string `'madagascar'` to the end of the list, `favorite_destinations`, as well.
+Again, let's declare a list called `favorite_destinations`. Write a new function called `add_favorite_destination()` that adds the string `'madagascar'` to the end of `favorite_destinations` and also returns the string `'madagascar'`.
 
 
 ```python
@@ -112,7 +112,7 @@ favorite_destinations[-1] # 'madagascar'
 
 
 
-Now let's write another function called `capitalize_countries` which iterates through the list of `capitalized_destinations` and capitalizes the first letter of each word. It should return a list of capitalized destinations.
+Now let's write another function called `capitalize_countries()` which iterates through the list of `capitalized_destinations` and capitalizes the first letter of each word. It should return a list of capitalized destinations.
 
 
 ```python
