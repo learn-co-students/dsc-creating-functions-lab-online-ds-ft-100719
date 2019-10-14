@@ -7,7 +7,7 @@ As you know, we can use functions to name snippets of our code, thus making our 
 
 ## Objectives
 You will be able to:
-* Create and use your own custom functions
+* Declare and use a basic function
 
 ## Instructions: 
 ### Writing our first functions
@@ -246,4 +246,4 @@ Great! Now if someone adds a country that is lowercased to our list of destinati
 
 ## Summary
 
-Great job! In this lab we were able to get practice both creating and returning values from functions. We also practiced accessing variables not local to the function but in the global scope.
+Great job! In this lab we were able to get practice both creating and returning values from functions.
