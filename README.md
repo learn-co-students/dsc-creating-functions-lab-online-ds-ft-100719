@@ -24,15 +24,8 @@ travel_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'cro
 
 
 ```python
-# number_of_destinations() # 6
+# number_of_destinations() # Expected output: 6
 ```
-
-
-
-
-    6
-
-
 
 Now write another function called `next_up()` that returns our first destination (the destination with the lowest index), in the `list_of_destinations` list.
 
@@ -41,20 +34,14 @@ Now write another function called `next_up()` that returns our first destination
 # define function here
 ```
 
-> Below, remove the first `#` to uncomment the following line(s) of code and then press `shift` + `enter` to run the cell
+Next, run your new function
 
 
 ```python
 list_of_destinations = ['argentina', 'canada', 'croatia']
-# next_up() # 'argentina'
+# Your code here 
+# Expected output:'argentina'
 ```
-
-
-
-
-    'argentina'
-
-
 
 Ok, now write a function called `favorite_destination()` that returns the string `'madagascar'`.
 
@@ -63,19 +50,13 @@ Ok, now write a function called `favorite_destination()` that returns the string
 # define function here
 ```
 
-> Below, remove the first `#` to uncomment the following line(s) of code and then press `shift` + `enter` to run the cell
+Next, run your new function
 
 
 ```python
-# favorite_destination() # 'madagascar'
+# Your code here 
+# Expected output:'madagascar'
 ```
-
-
-
-
-    'madagascar'
-
-
 
 Again, let's declare a list called `favorite_destinations`. Write a new function called `add_favorite_destination()` that adds the string `'madagascar'` to the end of `favorite_destinations` and also returns the string `'madagascar'`.
 
@@ -84,24 +65,16 @@ Again, let's declare a list called `favorite_destinations`. Write a new function
 # define function here
 ```
 
-> Below, remove the first `#` to uncomment the following line(s) of code and then press `shift` + `enter` to run the cell
+Next, run your new function
 
 
 ```python
 favorite_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
-# add_favorite_destination()
-favorite_destinations[-1] # 'madagascar'
+
+# Your code here 
+
+favorite_destinations[-1] 
 ```
-
-    ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia', 'madagascar']
-
-
-
-
-
-    'madagascar'
-
-
 
 Now let's write another function called `capitalize_countries()` which iterates through the list of `capitalized_destinations` and capitalizes the first letter of each word. It should return a list of capitalized destinations.
 
@@ -111,19 +84,12 @@ capitalized_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada',
 # define function here
 ```
 
-> Below, remove the first `#` to uncomment the following line(s) of code and then press `shift` + `enter` to run the cell
+Next, run your new function
 
 
 ```python
-# capitalize_countries() # ['Argentina', 'Mexico', 'Italy', 'Finland', 'Canada', 'Croatia']
+# Your code here # ['Argentina', 'Mexico', 'Italy', 'Finland', 'Canada', 'Croatia']
 ```
-
-
-
-
-    ['Argentina', 'Mexico', 'Italy', 'Finland', 'Canada', 'Croatia']
-
-
 
 Great! Now if someone adds a country that is lowercased to our list of destinations, we can simply call our function again to capitalize each of the destinations in the list.
 
