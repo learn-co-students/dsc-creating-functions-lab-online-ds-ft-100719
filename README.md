@@ -26,7 +26,7 @@ def number_of_destinations():
 
 
 ```python
-number_of_destinations() # 6
+number_of_destinations()
 ```
 
 
@@ -45,12 +45,12 @@ def next_up():
     return list_of_destinations[0]
 ```
 
-> Below, remove the first `#` to uncomment the following line(s) of code and then press `shift` + `enter` to run the cell
+Next, run your new function
 
 
 ```python
 list_of_destinations = ['argentina', 'canada', 'croatia']
-next_up() # 'argentina'
+next_up() 
 ```
 
 
@@ -69,11 +69,11 @@ def favorite_destination():
     return "madagascar"
 ```
 
-> Below, remove the first `#` to uncomment the following line(s) of code and then press `shift` + `enter` to run the cell
+Next, run your new function
 
 
 ```python
-favorite_destination() # 'madagascar'
+favorite_destination() 
 ```
 
 
@@ -93,17 +93,16 @@ def add_favorite_destination():
     return favorite_destination()
 ```
 
-> Below, remove the first `#` to uncomment the following line(s) of code and then press `shift` + `enter` to run the cell
+Next, run your new function
 
 
 ```python
 favorite_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+
 add_favorite_destination()
+
 favorite_destinations[-1] # 'madagascar'
 ```
-
-    ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia', 'madagascar']
-
 
 
 
@@ -125,11 +124,11 @@ def capitalize_countries():
     return new_list
 ```
 
-> Below, remove the first `#` to uncomment the following line(s) of code and then press `shift` + `enter` to run the cell
+Next, run your new function
 
 
 ```python
-capitalize_countries() # ['Argentina', 'Mexico', 'Italy', 'Finland', 'Canada', 'Croatia']
+capitalize_countries() 
 ```
 
 
